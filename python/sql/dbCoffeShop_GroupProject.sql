@@ -1,0 +1,1 @@
+SELECT * FROM dbKaterinaShvetsova.v_Sale_Item;

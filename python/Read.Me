@@ -1,0 +1,100 @@
+Power BI Sales & Inventory Analysis Dashboard
+📌 Overview
+
+This project integrates SQL views and Power BI dashboards to analyze sales, employees, products, inventory, suppliers, and promotions.
+It provides actionable insights into revenue growth, top employees, product sales, and stock levels across multiple stores.
+
+🛠 Data Sources
+
+The dashboard is built on a relational database (dbKaterinaShvetsova) with the following key tables:
+
+Sale – Transactions made in each store
+
+Sale_Item – Products sold per transaction
+
+Store – Store locations and capacity
+
+Employee – Staff working in stores
+
+Product – Products and categories
+
+Inventory – Stock on hand per store
+
+Supplier – Vendors supplying products
+
+Supply_Order – Ordered products and quantities
+
+Promotion – Active campaigns and discount rates
+
+📊 SQL Views Created
+
+The following SQL analysis views were developed:
+
+v_Analysis_Store_Sales_Growth
+Daily sales growth per store (compared to previous day).
+
+v_Analysis_Sales_Per_Category
+Total sales and revenue per product category.
+
+v_Analysis_Top_Employees
+Top 3 employees ranked by revenue contribution.
+
+v_Analysis_Daily_Store_Revenue
+Daily store revenue trend over time.
+
+v_Analysis_Stock_Value
+Total stock value per store.
+
+📈 Power BI Visuals
+
+The Power BI dashboard includes the following visuals:
+
+Revenue Trends by Store – Line chart of revenue across stores over time
+
+Revenue by Product – Column chart showing best-selling products
+
+Units Sold by Product Category & Store – Stacked chart for category-store breakdown
+
+Units Ordered by Supplier and Product – Matrix for supplier vs. ordered products
+
+Revenue Share by Employee Role – Pie chart for employee role contribution
+
+Inventory Levels by Product and Store – Matrix/column chart for stock tracking
+
+Sales Growth % by Store – Clustered chart showing daily growth rates
+
+Top 3 Employees by Sales – Bar chart ranking top employees
+
+📌 Features
+
+✔ SQL-based views for reusable analysis
+✔ Power BI DAX measures for daily sales growth
+✔ Slicers for filtering by date, store, category, or employee role
+✔ Mapping visuals for geographic revenue and stock analysis
+✔ Integration of promotion data (optional)
+
+🚀 How to Use
+
+Clone or download this project.
+
+Set up the database (dbKaterinaShvetsova) and import the provided tables.
+
+Execute the SQL scripts to create the analysis views.
+
+Open the Power BI .pbix file.
+
+Refresh the data connections to load the latest records.
+
+Explore the dashboard using filters and slicers.
+
+🔮 Future Improvements
+
+Link Promotion table to products or sales for promotion impact analysis.
+
+Add forecasting for inventory restock needs.
+
+Include KPIs such as profit margins and customer segmentation.
+
+👩‍💻 Author
+
+Katerina Shvetsova
